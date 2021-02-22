@@ -34,6 +34,14 @@ body {
     justify-content: space-between;
 }
 
+.lastheader {
+    background-color: yellow;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
 .top-header ul {
     list-style-type: none;
     display: flex;
