@@ -1,23 +1,37 @@
 /* general styles */
 
 * {
-        margin: 0;
-        box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
     
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .whitefont {
-    color: #d8d8d8;
-    font-size: 0.75em;
-    text-decoration: none;
+  color: #d8d8d8;
+  font-size: 0.75em;
+  text-decoration: none;
 }
 
 /* header */
 
 .top-header {
-    height: 40px;
-    background-color: black;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.top-header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.top-header li {
+  padding: 0 5px;
 }
