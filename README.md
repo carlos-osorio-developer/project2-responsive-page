@@ -46,7 +46,7 @@ The collaborative Coding experience was an amazing experience, spending time and
 
 ## Live Demo
 
-[Live Demo Link Netlify](https://hardcore-hodgkin-3a83ed.netlify.app/)
+[Live Demo Link Netlify]()
 
 [Link To Github Repo](https://carlos-osorio-developer.github.io/mv-week2-responsive/)
 
