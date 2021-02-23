@@ -95,34 +95,44 @@ body {
 /*highlights*/
 
 .highlights {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
 }
 
-.highlights .box {
-  height: 200px;
+.box > div {
+  background-color: rgba(170,170,170,0.4);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 10px;
+}
+
+.highlights .box {
+  height: 200px;    
 }
 
 .highlights .first {
   background-image: url(/assets/images/cont-1.jpg);
   background-position: center;
   background-size: cover;
+  grid-column: 1 / 4;
 }
 
 .highlights .scnd {
   background-image: url(/assets/images/cont-2.webp);
   background-position: center;
   background-size: cover;
+  grid-column: 1 / 4;
 }
 
 .highlights .third {
   background-image: url(/assets/images/cont-3.webp);
   background-position: center;
   background-size: cover;
+  grid-column: 1 / 4;
 }
 
 /* footer */
@@ -133,40 +143,6 @@ body {
   background: black;
   margin-top: 20px;
   width: 100%;
-}
-
-.footer-links-nav li {
-  display: list-item;
-  float: left;
-  font-size: 15px;
-  font-family: Shentox, sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: rgba(170, 170, 170);
-  margin: 0 6px;
-  line-height: 24px;
-  cursor: pointer;
-}
-
-.footer-copywrite {
-  background: black;
-  padding: 2.5em 0;
-  text-align: center;
-}
-
-.footer-copywrite svg {
-  height: 9px;
-  margin-right: 1px;
-  vertical-align: baseline;
-}
-
-.footer-copywrite p {
-  display: inline;
-  font-size: 13px;
-  font-weight: 400;
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 19.5px;
-  color: rgb(170, 170, 170);
 }
 
 .footer-social-nav-wrapper {
@@ -205,16 +181,18 @@ body {
 }
 
 .footer-index-social li {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   display: inline-block;
   color: white;
-  background-color: grey;
+  background-color: rgba(99, 99, 99, 0.4);
   border-radius: 50%;
+  padding: 2px 0;
+  margin: 0 5px;
 }
 
 .footer-index-social li i {
-  padding: 5px;
+  padding: 10px;
 }
 
 .footer-index-social_icon {
@@ -225,9 +203,43 @@ body {
   background: transparent url(assets/images/icons-sprite.svg) 1296px 1296px no-repeat;
 }
 
+.footer-links-nav li {
+  display: list-item;
+  float: left;
+  font-size: 15px;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgba(170, 170, 170);
+  margin: 0 6px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
 .footer-links-nav li:hover,
 .footer-links-nav li:focus {
   color: white;
+}
+
+.footer-copywrite {
+  background: black;
+  padding: 2.5em 0;
+  text-align: center;
+}
+
+.footer-copywrite svg {
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-copywrite p {
+  display: inline;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 19.5px;
+  color: rgb(170, 170, 170);
 }
 
 @media (max-width: 768px) {
