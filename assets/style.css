@@ -14,9 +14,6 @@ body {
   text-decoration: none;
 }
 
-
-/* header */
-
 .top-header {
   height: 40px;
   background-color: black;
@@ -130,9 +127,6 @@ body {
   width: 40px;
 }
 
-
-/* footer */
-
 .footer-copywrite {
   background: black;
   padding: 2.5em 0;
@@ -242,9 +236,6 @@ body {
     vertical-align: middle;
   }
 }
-
-
-/* highlights */
 
 .highlights {
   display: flex;
