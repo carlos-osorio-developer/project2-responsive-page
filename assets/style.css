@@ -11,8 +11,14 @@ body {
 
 .whitefont {
   color: #d8d8d8;
-  text-decoration: none;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* header */
 
 .top-header {
   height: 40px;
@@ -52,18 +58,18 @@ body {
   justify-content: center;
   list-style-type: none;
   height: 100%;
+  padding: 0;
 }
 
 .midheader-icons li {
-  border-left: #adadad solid 1px;
-  height: 40px;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  border-left: #adadad solid 1px; 
+  width: 60px;
 }
 
 .midheader-icons i {
-  font-size: 2em;
+  font-size: 1.5em;
+  padding: 18px;
+  color: #adadad;
 }
 
 .mid-header nav {
@@ -86,10 +92,6 @@ body {
 
 .top-header li {
   padding: 0 5px;
-}
-
-.boxcont a {
-  text-decoration: none;
 }
 
 /*highlights*/
