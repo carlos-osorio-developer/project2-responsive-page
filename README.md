@@ -39,8 +39,6 @@ The collaborative Coding experience was an amazing experience, spending time and
 ## Built With
 
 - Major languages: HTML, CSS
-
-- Frameworks: git flow
   
 - Technologies used: None
 
