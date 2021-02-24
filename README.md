@@ -86,7 +86,7 @@ Run index.html in your preferred browser.
 👤 **Carlos Osorio**
 
 - GitHub: [@carlos-osorio-developer ](https://github.com/carlos-osorio-developer)
-- Twitter: [@OsorioDevelops](hhttps://twitter.com/OsorioDevelops)
+- Twitter: [@OsorioDevelops](hhttps://twitter.com/@OsorioDevelops)
 - LinkedIn: [Carlos Osorio](https://www.linkedin.com/in/carlos-osorio-developer/)
 
 👤 **Eri-Ngozi**
