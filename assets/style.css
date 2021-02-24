@@ -111,7 +111,7 @@ h2 {
 }
 
 .box .box-background {
-  background: url(assets/images/black-gradient.webp) no-repeat;
+  background: url(images/black-gradient.webp) no-repeat;
   background-size: 100% 100%;
   width: 100%;
   height: 100%;
@@ -134,7 +134,7 @@ h2 {
 
 #highlights .first {
   position: relative;
-  background-image: url(assets/images/cont-1.jpg);
+  background-image: url(images/cont-1.jpg);
   background-position: center;
   background-size: cover;
   grid-column: 1 / 4;
@@ -145,14 +145,14 @@ h2 {
 }
 
 #highlights .scnd {
-  background-image: url(assets/images/cont-2.webp);
+  background-image: url(images/cont-2.webp);
   background-position: center;
   background-size: cover;
   grid-column: 1 / 4;
 }
 
 #highlights .third {
-  background-image: url(assets/images/cont-3.webp);
+  background-image: url(images/cont-3.webp);
   background-position: center;
   background-size: cover;
   grid-column: 1 / 4;
@@ -421,7 +421,7 @@ h2 {
     width: 100%;
     height: 100%;
     top: 0;
-    background: url(assets/images/header-article-gradient.webp) no-repeat;
+    background: url(images/header-article-gradient.webp) no-repeat;
     mix-blend-mode: lighten;
   }
 
