@@ -34,7 +34,7 @@ The collaborative Coding experience was an amazing experience, spending time and
 - Media Queries
   
   > Site Preview:
-  ![screenshot](./assets/images/SITE-Image-readme.png)
+  ![screenshot](./app_screenshot.png)
 
 ## Built With
 
