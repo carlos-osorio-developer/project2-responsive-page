@@ -473,6 +473,11 @@ h2 {
   transform: rotate(45deg);
 }
 
+.see-all-deals {
+  display: block;
+  margin-right: 20px;
+}
+
 /* MEDIA ================================================================== */
 
 @media (min-width: 768px) {
@@ -575,6 +580,13 @@ h2 {
   .triangle-down,
   .triangle-text {
     display: block;
+  }
+
+  .see-all-deals {
+    display: block;
+    float: right;
+    margin-right: 1%;
+    margin-top: 10px;
   }
 }
 
