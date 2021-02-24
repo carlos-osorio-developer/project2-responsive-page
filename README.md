@@ -85,15 +85,15 @@ Run index.html in your preferred browser.
 
 👤 **Carlos Osorio**
 
-- GitHub: [@carlos-osorio-developer ](https://github.com/carlos-osorio-developer)
+- GitHub: [@carlos-osorio-developer](https://github.com/carlos-osorio-developer)
 - Twitter: [@OsorioDevelops](hhttps://twitter.com/@OsorioDevelops)
 - LinkedIn: [Carlos Osorio](https://www.linkedin.com/in/carlos-osorio-developer/)
 
 👤 **Eri-Ngozi**
 
-- GitHub: [@githubhandle](https://github.com/errea)
-- Twitter: [@twitterhandle](https://twitter.com/Erreakay)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eri-ngozi-okereafor/)
+- GitHub: [@errea](https://github.com/errea)
+- Twitter: [@Erreakay](https://twitter.com/Erreakay)
+- LinkedIn: [eri-ngozi-okereafor](https://www.linkedin.com/in/eri-ngozi-okereafor/)
 
 ## 🤝 Contributing
 
