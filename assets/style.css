@@ -352,9 +352,11 @@ h2 {
   justify-content: flex-end;
   margin-bottom: 2px;
   padding: 15px;
-  background-image: url("./images/micro_logo.jpg"),
+  background-image:
+    url("./images/micro_logo.jpg"),
     -moz-linear-gradient(180deg, rgba(255, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%);
-  background-image: url("./images/micro_logo.jpg"),
+  background-image:
+    url("./images/micro_logo.jpg"),
     linear-gradient(180deg, rgba(255, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%);
   background-blend-mode: color-burn;
 }
@@ -367,7 +369,7 @@ h2 {
 .aside-pic {
   width: 90px;
   height: 90px;
-  float: right;  
+  float: right;
 }
 
 .aside-text {
@@ -386,7 +388,7 @@ h2 {
 
 .navigator li {
   padding: 8px 0;
-  border-bottom:rgb(212, 212, 212) solid 1px;
+  border-bottom: rgb(212, 212, 212) solid 1px;
 }
 
 .navigator li::before {
@@ -427,7 +429,7 @@ h2 {
   height: 80px;
   float: left;
   margin-right: 20px;
-  position: relative;  
+  position: relative;
 }
 
 .flex-title {
@@ -453,18 +455,18 @@ h2 {
 .triangle-down {
   display: none;
   width: 0;
-	height: 0;
-	border-left: 100px solid transparent;
-	border-right: 0 solid transparent;
-	border-top: 100px solid #fbc800;
- 	position: absolute;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 0 solid transparent;
+  border-top: 100px solid #fbc800;
+  position: absolute;
   top: 0;
   right: 0;
 }
 
 .triangle-text {
   display: none;
-	position: absolute;
+  position: absolute;
   top: 30px;
   right: 10px;
   z-index: 1;
