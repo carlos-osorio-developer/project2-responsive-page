@@ -1,34 +1,42 @@
 *,
 .scnd-font {
-  font: 100% Helvetica, Arial, sans-serif; }
+  font: 100% Helvetica, Arial, sans-serif;
+}
 
 h2,
 .prime-font {
-  font: 100% Avalon, sans-serif; }
+  font: 100% Avalon, sans-serif;
+}
 
 .logotipe {
-  background-color: black; }
-  .logotipe a {
-    display: block;
-    padding: 20px;
-    font-size: 0.75em; }
+  background-color: black;
+}
+
+.logotipe a {
+  display: block;
+  padding: 20px;
+  font-size: 0.75em;
+}
 
 .midheader-icons ul {
   display: flex;
   align-content: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .lastheader {
   display: flex;
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  padding-left: 20px; }
+  padding-left: 20px;
+}
 
 .footer-social {
   display: flex;
   align-content: center;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=main_styles.css.map */

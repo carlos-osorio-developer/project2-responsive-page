@@ -1,5 +1,5 @@
-$font-avalon: Avalon, sans-serif;
-$font-helvetica: Helvetica, Arial, sans-serif;
+$font-avalon: avalon, sans-serif;
+$font-helvetica: helvetica, arial, sans-serif;
 
 @mixin flex-align-center-justify-center {
   display: flex;
@@ -19,8 +19,8 @@ h2,
 
 .logotipe {
   background-color: black;
-  a 
-  {
+
+  a {
     display: block;
     padding: 20px;
     font-size: 0.75em;
@@ -33,11 +33,13 @@ h2,
 
 .lastheader {
   @include flex-align-center-justify-center;
+
   flex-direction: column;
   padding-left: 20px;
 }
 
 .footer-social {
   @include flex-align-center-justify-center;
+  
   flex-direction: column;
 }
