@@ -1,0 +1,97 @@
+/* variables */
+
+/* mixins */
+
+/* entend */
+#funding .fundbox .fundbox-title,
+#funding .boldprice {
+  font-size: 1.125em;
+}
+
+#funding .fundbox .fundbox-subtitle,
+#funding .fundbox-descrpt {
+  font-size: 0.75em;
+}
+
+/* styles for funding */
+#funding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#funding .top {
+  align-self: flex-start;
+  width: 100%;
+}
+
+#funding .left a {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #f42;
+  padding-left: 5px;
+}
+
+#funding .right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+#funding .right a {
+  color: #f42;
+  padding-top: 10px;
+}
+
+#funding .fundbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#funding .fundbox i {
+  padding-right: 10px;
+  color: #000;
+}
+
+#funding .fundbox img {
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#funding .fundbox .fundbox-subtitle {
+  padding: 10px 0;
+  padding-left: 80px;
+  background-color: #ffebe7;
+  margin-bottom: 10px;
+}
+
+#funding .fundbox .fundbox-title {
+  background-color: #f42;
+  height: 40px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 80px;
+}
+
+#funding .fundbox > p {
+  padding: 3px;
+  margin-left: 15px;
+}
+
+#funding .boldprice {
+  display: block;
+}
+
+#funding .fundbox-descrpt {
+  margin-top: 10px;
+  border-top: rgba(255, 68, 34, 0.25) solid 1px;
+  padding: 10px 15px;
+  line-height: 24px;
+}
