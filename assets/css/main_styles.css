@@ -1,11 +1,11 @@
 *,
 .scnd-font {
-  font: 100% Helvetica, Arial, sans-serif;
+  font: 100% helvetica, arial, sans-serif;
 }
 
 h2,
 .prime-font {
-  font: 100% Avalon, sans-serif;
+  font: 100% avalon, sans-serif;
 }
 
 .logotipe {
@@ -38,5 +38,3 @@ h2,
   justify-content: center;
   flex-direction: column;
 }
-
-/*# sourceMappingURL=main_styles.css.map */
