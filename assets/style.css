@@ -15,12 +15,20 @@ header {
   z-index: 100;
 }
 
+.reallywhitefont {
+  color: #fff;
+}
+
 .whitefont {
   color: #c0c0c0;
 }
 
 .greyfont {
   color: #858585;
+}
+
+.orangefont {
+  color: #f42;
 }
 
 a {
@@ -38,7 +46,6 @@ a {
 
 h2 {
   font-family: Avalon, sans-serif;
-  color: #fff;
 }
 
 .top-header {
@@ -324,6 +331,154 @@ h2 {
   color: rgb(170, 170, 170);
 }
 
+/* MILESTONE 2 ============================================================= */
+
+.grid-container {
+  display: grid;
+}
+
+.grid-child {
+  margin: 1%;
+}
+
+.top-image {
+  width: 100%;
+  height: 20em;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2px;
+  padding: 15px;
+  background-image:
+    url("./images/micro_logo.jpg"),
+    -moz-linear-gradient(180deg, rgba(255, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%);
+  background-image:
+    url("./images/micro_logo.jpg"),
+    linear-gradient(180deg, rgba(255, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%);
+  background-blend-mode: color-burn;
+}
+
+.pinky {
+  background-color: #fdd4d4;
+  height: 90px;
+}
+
+.aside-pic {
+  width: 90px;
+  height: 90px;
+  float: right;
+}
+
+.aside-text {
+  padding: 10px;
+}
+
+.navigator {
+  clear: right;
+}
+
+.navigator ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.navigator li {
+  padding: 8px 0;
+  border-bottom: rgb(212, 212, 212) solid 1px;
+}
+
+.navigator li::before {
+  content: "\2022";
+  color: #f42;
+  padding-right: 15px;
+}
+
+.section-title {
+  color: #f42;
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding-left: 5px;
+  margin-bottom: 15px;
+}
+
+.pretty-flexbox {
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-child {
+  flex: 1 0 100%;
+  margin-bottom: 20px;
+}
+
+.flex-image {
+  width: 80px;
+  background-image: url("images/micro_logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80px;
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+
+.flex-title {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.flex-details {
+  font-size: 0.7em;
+  color: #adadad;
+}
+
+.flex-details-2 {
+  font-size: 1.2em;
+  color: rgba(99, 99, 99, 1);
+}
+
+.midline {
+  text-decoration: line-through;
+  color: #adadad;
+}
+
+.triangle-down {
+  display: none;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 0 solid transparent;
+  border-top: 100px solid #fbc800;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.triangle-text {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  z-index: 1;
+  transform: rotate(45deg);
+}
+
+.see-all-deals {
+  display: block;
+  margin-right: 20px;
+}
+
+/* MEDIA ================================================================== */
+
 @media (min-width: 768px) {
   .top-header {
     height: 40px;
@@ -390,6 +545,48 @@ h2 {
   .footer-copywrite p {
     display: inline;
   }
+
+  /* Milestone 2 properties */
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-child {
+    margin: 2%;
+  }
+
+  .flex-child {
+    flex: 1 0 31%;
+    margin: 1%;
+  }
+
+  .flex-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .flex-title {
+    font-size: 1.1em;
+  }
+
+  .flex-details {
+    font-size: 0.8em;
+  }
+
+  .triangle-down,
+  .triangle-text {
+    display: block;
+  }
+
+  .see-all-deals {
+    display: block;
+    float: right;
+    margin-right: 1%;
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -432,7 +629,6 @@ h2 {
     top: 0;
     right: 0;
     padding: 10px;
-    color: #fff;
   }
 
   #highlights .highlights-logo svg {
@@ -455,5 +651,21 @@ h2 {
 
   #funding .right a::before {
     content: "| ";
+  }
+
+  /* Milestone 2 properties */
+
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .grid-child {
+    margin: 5%;
+  }
+
+  .flex-child {
+    flex: 1 0 20%;
+    margin: 1%;
   }
 }
