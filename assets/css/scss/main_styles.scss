@@ -1,0 +1,45 @@
+$font-avalon: avalon, sans-serif;
+$font-helvetica: helvetica, arial, sans-serif;
+
+@mixin flex-align-center-justify-center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+*,
+.scnd-font {
+  font: 100% $font-helvetica;
+}
+
+h2,
+.prime-font {
+  font: 100% $font-avalon;
+}
+
+.logotipe {
+  background-color: black;
+
+  a {
+    display: block;
+    padding: 20px;
+    font-size: 0.75em;
+  }
+}
+
+.midheader-icons ul {
+  @include flex-align-center-justify-center;
+}
+
+.lastheader {
+  @include flex-align-center-justify-center;
+
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.footer-social {
+  @include flex-align-center-justify-center;
+
+  flex-direction: column;
+}
