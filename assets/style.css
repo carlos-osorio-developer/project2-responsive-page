@@ -46,7 +46,6 @@ a {
 
 h2 {
   font-family: Avalon, sans-serif;
-  color: #fff;
 }
 
 .top-header {
@@ -630,7 +629,6 @@ h2 {
     top: 0;
     right: 0;
     padding: 10px;
-    color: #fff;
   }
 
   #highlights .highlights-logo svg {
