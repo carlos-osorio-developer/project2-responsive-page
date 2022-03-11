@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Project Name: The Next-Website Clone
 
 ## Week 2 - Collaborative Project [Responsive Website Design]
@@ -105,7 +103,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse and his supportive community.
 - Thanks to everyone commiting in this project.
 
 ## 📝 License
